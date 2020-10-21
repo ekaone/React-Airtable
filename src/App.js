@@ -2,9 +2,7 @@ import React, { useEffect } from "react";
 import Airtable from "airtable";
 
 function App() {
-  const base = new Airtable({ apiKey: "keypSI9YKcvGIQVLa" }).base(
-    "appJxKLdSK7M3cwii"
-  );
+  const base = new Airtable({ apiKey: "" }).base("");
 
   useEffect(() => {
     base("goals")
